@@ -1,13 +1,11 @@
 {
-  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "panel",
   "name": "Status Dot Map",
   "id": "1-status-dot-map",
   "info": {
     "description": "Plugin to visualize status of each resource with dot map representation",
     "author": {
-      "name": "Prateek Jaiswal",
-      "url": ""
+      "name": "Prateek Jaiswal"
     },
     "keywords": [
       "status",
@@ -22,14 +20,29 @@
     "links": [
       {
         "name": "Website",
-        "url": "https://github.com/grafana/grafana-starter-panel"
+        "url": "https://github.com/prateekdev92/grafana-status-dot-panel"
       },
       {
         "name": "License",
-        "url": "https://github.com/grafana/grafana-starter-panel/blob/master/LICENSE"
+        "url": "https://github.com/prateekdev92/grafana-status-dot-panel"
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      {
+        "name": "Screenshot1",
+        "path": "img/screenshot-1.png"
+      },
+      {
+        "name": "Screenshot2",
+        "path": "img/screenshot-2.png"
+      },{
+        "name": "Screenshot3",
+        "path": "img/screenshot-3.png"
+      },{
+        "name": "Screenshot4",
+        "path": "img/screenshot-4.png"
+      }
+    ],
     "version": "%VERSION%",
     "updated": "%TODAY%"
   },
