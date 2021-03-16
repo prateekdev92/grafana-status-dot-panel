@@ -1,0 +1,26 @@
+{
+  "name": "status-dot-map",
+  "version": "1.0.0",
+  "description": "Plugin to visualize status of each resource with dot map representation",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "sign": "grafana-toolkit plugin:sign",
+    "start": "yarn watch",
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix --ignore-pattern 'dist/'"
+  },
+  "author": "Prateek Jaiswal",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@grafana/data": "latest",
+    "@grafana/eslint-config": "^2.3.0",
+    "@grafana/toolkit": "latest",
+    "@grafana/ui": "latest",
+    "emotion": "10.0.27"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

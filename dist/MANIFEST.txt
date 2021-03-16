@@ -1,0 +1,42 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "private",
+  "signedByOrg": "owz",
+  "signedByOrgName": "OWZ",
+  "rootUrls": [
+    "https://grafana.internal.mum1-stage.zeta.in/",
+    "https://grafana.internal.mum1-pp.zeta.in/",
+    "https://grafana.internal.mum1.zeta.in/",
+    "https://grafana.internal.olympus-world.zeta.in/",
+    "https://grafana.internal.lon1.zetaapps.in/"
+  ],
+  "plugin": "1-status-dot-map",
+  "version": "1.0.0",
+  "time": 1615834888538,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "index.html": "2fa2c4168c5bb7b8502989f437e4a1a71e663702b0ec9c01530215c8c026dcaf",
+    "LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "CHANGELOG.md": "aaa78be4710ef41d56ddab1edbd180ef9f9adfea2f293109aae925dc33a1b9b3",
+    "module.js.LICENSE.txt": "0d8f66cd4afb566cb5b7e1540c68f43b939d3eba12ace290f18abc4f4cb53ed0",
+    "module.js.map": "26047de5b8bda6016d0fd2266e8d4cde8d30787013f14b0a4e7818b39fcdde87",
+    "plugin.json": "87a2d4027b7cbc651ac58b1cc505861ebc891b27fcd98859580a191612aca023",
+    "README.md": "ba6a245632a80e7137ff93dc0f331609e8054de68031b1baae822ef7b3d24eb1",
+    "img/logo.svg": "1defc6f7e585c67657bcfd8fddc599ee7dfa82f8674413f49fa274c2cd453ec6",
+    "module.js": "e3f0a88e7b084a7d7054421792358b23da813c9a37465cb15d0a3c5bb8083d36"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.1
+Comment: https://openpgpjs.org
+
+wqIEARMKAAYFAmBPrwgACgkQfk0ManCIZudGOAIJAQYb3LZHaYG5hQMP85Qr
+ys6lQf4FjFRVa+Gb3NRc4SPENeXwug6nVA/mCxFJ9sNGQIRgadTcUgCUZZWA
+Ff4qLY9eAgkBFsq/rRKdLcH5LEKx2wfpdNWA/QOVsZT4JY3zyu3Ax+SWqhAo
+eIHCn/j793tM3RBmYrLIxLiplwyK8QBk8L0ueHU=
+=2jlv
+-----END PGP SIGNATURE-----
