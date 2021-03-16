@@ -1,6 +1,6 @@
 # Grafana Status Dot Panel
 
-A Grafana panel plugin to visual node status map.
+A Grafana panel plugin to visual node status.
 
 ## Features
 
