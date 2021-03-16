@@ -1,10 +1,9 @@
-# Grafana Panel Plugin Template
+# Grafana Status Dot Panel
 
-This template is a starting point for building Grafana Panel Plugins in Grafana 7.0+
+A Grafana panel plugin to visual node status map.
 
-## What is Grafana Panel Plugin?
+## Features
 
-Panels are the building blocks of Grafana. They allow you to visualize data in different ways. While Grafana has several types of panels already built-in, you can also build your own panel, to add support for other visualizations.
 
 ## Getting started
 
@@ -41,18 +40,3 @@ Panels are the building blocks of Grafana. They allow you to visualize data in d
 - StatusDotPanel.tsx: is where you write your plugin using @grafana/data properties & @grafana/ui components
 - use { options, data, width, height } panel props to access data, dimensions etc.
 - data.series contains the series returned from a data source query. Each series is represented as data frame. A data frame resembles a table, where data is stored by columns, or fields, instead of rows.
-
-## Learn more
-
-- [Grafana documentation](https://grafana.com/docs/)
-- [Grafana Tutorials](https://grafana.com/tutorials/) - Grafana Tutorials are step-by-step guides that help you make the most of Grafana
-- [Grafana UI Library](https://developers.grafana.com/ui) - UI components to help you build interfaces using Grafana Design System
-
-##Deploying
-
-- https://grafana.com/docs/grafana/latest/installation/docker/#grafana-container-using-bind-mounts
-- https://community.grafana.com/t/grafana-docker-compose-downloads-plugins-on-every-start/10976/6
-- https://grafana.com/docs/grafana/latest/administration/configure-docker/#default-paths
-- https://fossies.org/linux/grafana/packaging/docker/custom/Dockerfile
-- https://registry.hub.docker.com/r/appliedis/grafana
-- https://github.com/grafana/grafana-docker/issues/134
